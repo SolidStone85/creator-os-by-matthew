@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creator OS by Matthew</title>
+    <meta name="description" content="Creator OS by Matthew is a private desktop tool for managing Matthew Carvalho's creator publishing workflow.">
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #080a0d;
+        --panel: #11161b;
+        --text: #f6f8fb;
+        --muted: #a9b4bf;
+        --line: #26313a;
+        --accent: #d3ff4d;
+        --cyan: #65d8ff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+      }
+      main {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 64px 22px;
+      }
+      header {
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 34px;
+        margin-bottom: 34px;
+      }
+      .label {
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      h1 {
+        font-size: clamp(40px, 7vw, 76px);
+        line-height: .95;
+        margin: 12px 0 18px;
+      }
+      p {
+        color: var(--muted);
+        font-size: 18px;
+        max-width: 760px;
+      }
+      section {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        margin: 18px 0;
+      }
+      h2 {
+        margin: 0 0 10px;
+        font-size: 24px;
+      }
+      ul {
+        padding-left: 20px;
+        color: var(--muted);
+      }
+      a {
+        color: var(--cyan);
+      }
+      nav {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        margin-top: 22px;
+      }
+      .button {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        color: var(--text);
+        padding: 10px 14px;
+        text-decoration: none;
+      }
+      footer {
+        border-top: 1px solid var(--line);
+        margin-top: 34px;
+        padding-top: 22px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="label">Private creator operations tool</div>
+        <h1>Creator OS by Matthew</h1>
+        <p>
+          Creator OS by Matthew is a private desktop dashboard used by Matthew Carvalho
+          to prepare, organize, and publish video content across his owned creator channels.
+        </p>
+        <nav>
+          <a class="button" href="./terms.html">Terms of Service</a>
+          <a class="button" href="./privacy.html">Privacy Policy</a>
+        </nav>
+      </header>
+
+      <section>
+        <h2>Purpose</h2>
+        <p>
+          The tool helps manage upload readiness, captions, hashtags, cover-frame choices,
+          video metadata, and creator workflow handoffs for Matthew's own content.
+        </p>
+      </section>
+
+      <section>
+        <h2>TikTok Integration</h2>
+        <ul>
+          <li>Login Kit lets Matthew authorize his own TikTok accounts through TikTok OAuth.</li>
+          <li>Content Posting API is used to upload finished video files to authorized accounts for review and posting.</li>
+          <li>The app is not a public posting service and does not automate likes, follows, messages, comments, or engagement.</li>
+        </ul>
+      </section>
+
+      <footer>
+        Contact: Matthew Carvalho. This site is provided for app review and policy reference.
+      </footer>
+    </main>
+  </body>
+</html>
